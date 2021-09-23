@@ -17,10 +17,10 @@
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       onsubmit="onSubmit()">
 
-      <fieldset>
+      <fieldset class="inquirer">
         <legend>Personal information</legend>
 
-        <label for="surname">
+        <label class="display" for="surname">
           Surname:
           <input
             type="text"
@@ -30,7 +30,7 @@
           >
         </label>
 
-        <label for="name">
+        <label class="display" for="name">
           Name:
           <input
             type="text"
@@ -40,7 +40,7 @@
           >
         </label>
 
-        <label for="age">
+        <label class="display" for="age">
           How old are You?
           <input
            type="number"
@@ -52,7 +52,7 @@
           >
         </label>
 
-        <label for="birthday">
+        <label class="display" for="birthday">
           Full date of birth:
           <input
             type="date"
@@ -62,7 +62,7 @@
           >
         </label>
 
-        <label for="accept">
+        <label class="display" for="accept">
           I accept the term of the agreement
           <input
             type="checkbox"
@@ -75,7 +75,7 @@
       <fieldset>
         <legend>Registration</legend>
 
-        <label for="email">
+        <label class="display" for="email">
           E-mail:
           <input
             type="email"
@@ -86,7 +86,7 @@
           >
         </label>
 
-        <label for="password">
+        <label class="display" for="password">
           Password:
           <input
             type="password"
@@ -101,9 +101,9 @@
       <fieldset>
         <legend>An interesting fact about you!</legend>
 
-        <div id="loveCat">
+        <div class="radioBox" id="loveCat">
           Do you love cats?
-          <label for="catYes">
+          <label class="display" for="catYes">
             <input
               type="radio"
               name="radio"
@@ -111,7 +111,7 @@
             >
             Yes
           </label>
-          <label for="catNo">
+          <label class="display" for="catNo">
             <input
               type="radio"
               name="radio"
@@ -121,7 +121,7 @@
           </label>
         </div>
 
-        <label for="favoriteColor">
+        <label class="display" for="favoriteColor">
           What is your favorite color?
           <input
             type="color"
@@ -130,7 +130,7 @@
           >
         </label>
 
-        <label for="timeToBed">
+        <label class="display" for="timeToBed">
           What time do you go to bed?
           <input
             type="time"
@@ -139,7 +139,7 @@
           >
         </label>
 
-        <label for="favoriteCar">
+        <label class="display" for="favoriteCar">
           What are your favorite brand of cars?
           <select
             name="cars"
@@ -151,7 +151,7 @@
           </select>
         </label>
 
-        <label for="rateWork">
+        <label class="display" for="rateWork">
           How do you rate our work?
           <input
             type="range"
@@ -165,7 +165,7 @@
       <fieldset>
         <legend>Additional info:</legend>
 
-        <label for="comments">
+        <label class="display" for="comments">
           Comments:
           <textarea
             name="comments"
@@ -176,7 +176,7 @@
          ></textarea>
         </label>
 
-        <label for="recommend">
+        <label class="display" for="recommend">
           Would you recommend us?
           <select
             name="recommend"

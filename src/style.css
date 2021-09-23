@@ -1,19 +1,19 @@
-fieldset {
+.inquirer {
   margin-bottom: 20px;
 }
 
-label {
+.display {
   display: block;
 }
 
-div {
+.radioBox {
   padding-bottom: 10px;
 }
 
-div label {
+.radioBox .display {
   display: inline;
 }
 
-fieldset label:not(:last-child) {
+.inquirer .display:not(:last-child) {
   padding-bottom: 10px;
 }
